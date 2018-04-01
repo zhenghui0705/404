@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>css3动画</title></head><style>a,body,div,h1,h2,h3,i,img,li,span,ul{margin:0;padding:0}a{text-decoration:none}ul li{list-style:none}body,html{width:100%;height:100%}body{overflow:hidden;position:relative;background:#ff3f3f;animation-iteration-count:infinite}#app{width:1080px;margin:0 auto;position:relative}.comtent{width:100%;height:500px;margin:40px auto;background:#ff3f3f;box-shadow:0 0 2em 0 #000;animation:csstext 1s}@keyframes cssanimant{0%{background:#c80a2a}10%{background:#e70027}20%{background:#c80a2a}40%{background:#e70027}60%{background:#c80a2a}80%{background:#e70027}100%{background:#c80a2a}}@keyframes csstext{0%{transform:scale(0);opacity:.2}20%{transform:scale(0);opacity:.4}40%{transform:scale(0);opacity:.6}60%{transform:scale(0);opacity:.8}80%{transform:scale(0);opacity:.9}100%{transform:scale(1);opacity:1}}.numbers-layer{position:relative;height:100%;width:100%;top:0;left:0}.numbers-layer>.number{position:absolute;color:#fff;font-size:50px;font-weight:500;animation:number-animation 3s linear infinite;transform:scale(0);opacity:0}.numbers-layer>.number:nth-of-type(1){top:60%;left:10%;font-size:5em}.numbers-layer>.number:nth-of-type(2){top:60%;left:90%;font-size:4em}.numbers-layer>.number:nth-of-type(3){top:80%;left:66%}.numbers-layer>.number:nth-of-type(4){top:10%;left:62%;font-size:10em}.numbers-layer>.number:nth-of-type(5){top:18%;left:47%;font-size:12em}.numbers-layer>.number:nth-of-type(6){top:30%;left:34%;font-size:8em}.numbers-layer>.number:nth-of-type(7){top:40%;left:20%;font-size:10em}.numbers-layer>.number:nth-of-type(8){top:0;left:10%;font-size:6em}.numbers-layer>.number:nth-of-type(9){top:0;left:90%;font-size:4em}.numbers-layer>.number:nth-of-type(10){top:30%;left:80%;font-size:8em;animation-delay:.1s}.-with-shadow{text-shadow:30px 30px #573c3c}.circles-layer{width:100%;height:100%;position:absolute}@keyframes number-animation{0%{transform:scale(.2);opacity:0}10%{transform:scale(.4);opacity:.2}20%{transform:scale(.6);opacity:.4}30%{transform:scale(.8);opacity:.6}40%{transform:scale(1);opacity:1}50%{transform:scale(1);opacity:1}60%{transform:scale(.6);opacity:.8}70%{transform:scale(.4);opacity:.6}80%{transform:scale(.2);opacity:.2}90%{transform:scale(.1);opacity:.1}100%{transform:scale(0);opacity:0}}.oops-message{width:1080px;margin:0 auto;text-align:center;font-size:30px;position:absolute;bottom:20px}.oops-message a{border:2px solid #fff;border-radius:10px;color:#fff;font-size:14px}.oops-message .test{color:#fff;font-size:16px}.oops-message .button{padding:1px 4px;margin-top:20px;display:inline-block}.oops-message a:hover{background:#fff}
+    </style>
+    <body>
+        <div id="app">
+            <div class="comtent">
+                <div class="numbers-layer">
+                    <div class="number">4</div>
+                    <div class="number">4</div>
+                    <div class="number">0</div>
+                    <div class="number">4</div>
+                    <div class="number">0</div>
+                    <div class="number">4</div>
+                    <div class="number -with-shadow">0</div>
+                    <div class="number -with-shadow">0</div>
+                    <div class="number -with-shadow">4</div>
+                    <div class="number -with-shadow">0</div>
+                </div>
+    
+                <div class="oops-message">
+                    <div class="test">Oh! 你访问的页面去火星了！</div>
+                    <a class="button" href="http://www.zinete.com">回到首页</a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
